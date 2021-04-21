@@ -3,12 +3,10 @@
 int k = 0, z = 0, i = 0, j = 0, c = 0;
 char a[16], ac[20], stk[15], act[10];
 void check ();
-int
-main ()
+int main ()
 {
-
   puts ("GRAMMAR is E->E+E \n E->E*E \n E->(E) \n E->id");
-  puts ("enter input string ");
+  puts ("Enter input string ");
   gets (a);
   c = strlen (a);
   strcpy (act, "SHIFT->");
@@ -33,12 +31,12 @@ main ()
 	  printf ("\n$%s\t%s$\t%ssymbols", stk, a, act);
 	  check ();
 	}
-    }
-
+    } 
+    printf("\n");
+    return 0;
 }
 
-void
-check ()
+void check ()
 {
   strcpy (ac, "REDUCE TO E");
   for (z = 0; z < c; z++)
