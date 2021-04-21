@@ -12,7 +12,7 @@ and copy the resulting program into separate file.
 
 2b. Lex Program to recognize whether a given sentence is simple or compound.
 
-## Program 3:
+### Program 3:
 3a. Lex Program to count no of :
 
         i.+ve and –ve integers
