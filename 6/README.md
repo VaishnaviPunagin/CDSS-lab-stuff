@@ -1,1 +1,4 @@
-6. Program to recognize the strings using the grammar (a^n b^ n; n>=0)
+# Program 6:
+
+
+Program to recognize the strings using the grammar (a^n b^ n; n>=0)
