@@ -10,11 +10,12 @@ int yywrap()
 {
         return 1;
 }
-main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
         FILE *file;
         file = fopen(argv[1],"r");
         yyin = file;
         yylex();
         printf("Number of identifiers are:: %d\n", i);
+        return 0;
 }
