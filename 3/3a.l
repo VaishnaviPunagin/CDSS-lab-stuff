@@ -8,8 +8,10 @@ int pi = 0, ni = 0, pf = 0, nf =0;
 [-][0-9]*\.[0-9]+ {nf++;}
 [+]?[0-9]*\.[0-9]+ {pf++;}
 %%
-void main(int argc, char *argv[]){
-	if(argc!=2){
+void main(int argc, char *argv[])
+{
+	if(argc!=2)
+	{
 		printf("usage: ./a.out dummy.txt \n");
 		exit(0);
 	}

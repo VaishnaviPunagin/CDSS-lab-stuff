@@ -6,7 +6,8 @@ int sf=0;int pf=0;
 "scanf" {sf++; fprintf(yyout, "readf");}
 "printf" {pf++; fprintf(yyout, "writef");}
 %%
-int main(int argc,char *argv[]){
+int main(int argc,char *argv[])
+{
 	yyin=fopen("one.c","r");
 	yyout=fopen("copyOfOne.c","w");
 	yylex();
