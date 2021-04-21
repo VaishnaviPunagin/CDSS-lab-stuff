@@ -8,4 +8,4 @@
 
 
 
-1b.Lex Program to recognize and count the number of identifiers in a file.
+1b. Lex Program to recognize and count the number of identifiers in a file.
