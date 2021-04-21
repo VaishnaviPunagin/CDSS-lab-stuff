@@ -1,20 +1,20 @@
 %{
-#include<stdio.h>
-int id=0;
+int i=0;
 %}
-digit[0-9]
-letter[a-zA-Z_]
 %%
-{letter}({letter}|{digit})* {id++;}
+[a-zA-Z][a-zA-Z0-9]* {i++;}
+\n ;
+. ;
 %%
 int yywrap()
-{ 
-  return 1;
-}
-int main()
 {
-yyin=fopen("a.txt1","r");
-yylex();
-printf("number of identifiers are %d\n",id);
-return 0;
+        return 1;
+}
+main(int argc, char* argv[])
+{
+        FILE *file;
+        file = fopen(argv[1],"r");
+        yyin = file;
+        yylex();
+        printf("Number of identifiers are:: %d\n", i);
 }
