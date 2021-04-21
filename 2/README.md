@@ -1,6 +1,4 @@
-# For execution of problem 2b.
-
-After you do enter your sentence, Hit **Ctrl+D** to exit the output stream and run the program.
+# Program 2:
 
 
 
@@ -10,3 +8,7 @@ and copy the resulting program into separate file.
 
 
 2b. Lex Program to recognize whether a given sentence is simple or compound.
+
+
+
+After you do enter your sentence, Hit **Ctrl+D** to exit the output stream and run the program.
