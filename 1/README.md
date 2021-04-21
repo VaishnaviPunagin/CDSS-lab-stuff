@@ -1,3 +1,8 @@
+# Program 1:
+
+
+
+
 1a. Lex Program to count the number of characters, words, spaces and lines in a given input file
 
 
